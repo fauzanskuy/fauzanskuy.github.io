@@ -1,0 +1,126 @@
+body{
+    font-family: "Times New Roman";
+    background-color: gainsboro;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body a {
+    color: lightgray;
+}
+body a:hover {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px){
+    #maincontent{
+        width: auto;
+        float: none;
+    }
+    #sidebar{
+        width: auto;
+        float: none;
+    }
+}
+html{
+    height: 100%;
+}
+
+select:hover{
+    background-color: burlywood;
+}
+
+option:hover{
+    background-color: burlywood;
+}
+
+input:hover{
+    background-color: burlywood;
+}
+
+textarea:hover{
+    background-color: burlywood;
+}
+
+.img-header img {
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar {
+    background-color: bisque;
+    color: aqua;
+    font-size: 14px;
+    padding: 16px 0 0;
+}
+.top-bar a {
+    color: #ffff;
+}
+.top-bar a:hover {
+    color: dimgray;
+}
+.top-bar i {
+    margin-right: 5px;
+}
+
+textarea{
+    resize: none;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    font-size: 10;
+}
+
+.rules {
+    padding-bottom: 1rem;
+    color: black;
+    margin: auto;
+}
+button {
+    width: 100px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    color: lightcyan;
+    cursor: pointer;
+}
+thead {
+    padding: 1rem;
+}
+tbody {
+    margin: 1rem;
+}
+.dtabel_dalam_dalam {
+    margin: left;
+}
+.page-title {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid #fbbcfb;
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+.legend {
+    color: aqua;
+}
+.rule {
+    margin: 0px 0px 0px 1rem;
+    color: black;
+}
+.rules {
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
